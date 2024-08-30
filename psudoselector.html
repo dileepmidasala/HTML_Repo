@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head><title> PsudoSelector Ex</title>
+        <script>
+
+        </script>
+        <style>
+a:link{
+    color: red;
+    font-size: large;
+    text-align: center;
+}
+h1:hover{
+    background-color: blue;
+    text-align: center;
+    font-style: italic;
+
+}
+h1:visited{
+    background-color: red;
+}
+h2:active{
+    background-color: yellow;
+}
+
+p:first-line{
+background-color: pink;
+}
+p::first-letter{
+    color: yellow;
+    letter-spacing: normal;
+    background-color: blue;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eligendi.</h1>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, nulla rem! Ea unde assumenda aliquam aliquid ratione error impedit vero.</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, recusandae.</p>
+        <a href="#" >Google</a>
+
+    </body>
+</html>
